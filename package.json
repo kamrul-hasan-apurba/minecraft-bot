@@ -1,0 +1,17 @@
+{
+  "name": "entores-minecraft-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mineflayer bot that joins an Aternos Java server. Runs on Vercel (in short visits) or on any always-on Node host.",
+  "main": "api/bot.js",
+  "scripts": {
+    "start": "node api/bot.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "@vercel/functions": "^2.0.0",
+    "mineflayer": "^4.35.0"
+  }
+}
